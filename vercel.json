@@ -1,7 +1,0 @@
-
-{
-    "rewrites": [
-      { "source": "/api/auth", "destination": "/routes/authRoutes.js" },
-      { "source": "/api/media", "destination": "/routes/MediaRoutes.js" }
-    ]
-  }
