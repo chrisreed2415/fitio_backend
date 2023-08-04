@@ -6,7 +6,7 @@ const Post = mongoose.model("Post");
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 const nodemailer = require("nodemailer");
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 //firebase storage
 const admin = require('firebase-admin');
