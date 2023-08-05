@@ -10,7 +10,7 @@ const bcrypt = require('bcryptjs');
 
 //firebase storage
 const admin = require('firebase-admin');
-JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
     storageBucket: 'gs://athletebeta-ed065.appspot.com/' 
